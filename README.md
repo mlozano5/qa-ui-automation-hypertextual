@@ -52,16 +52,15 @@ mvn test
 
 ## Project Structure
 
-- src/main/java: Contains the main source code including Page Objects, utility classes, and the custom DriverManager.
-- src/test/java: Contains test definitions, step definitions, and test runners.
-- src/test/resources: Contains feature files for Cucumber and configuration files.
+- `src/main/java:` Contains the main source code including Page Objects, utility classes, and the custom DriverManager.
+- `src/test/java:` Contains test definitions, step definitions, and test runners.
+- `src/test/resources:` Contains feature files for Cucumber and configuration files.
 ## Writing Tests
-
-- Feature Files: Define your test scenarios using Gherkin syntax in .feature files located in `src/test/resources/features`.
-- Step Definitions: Implement the steps defined in the feature files in classes located in `src/test/java/stepdefinitions`.
-- Page Objects: Create classes for each page of your application in `src/main/java/pages` following the Page Object Model.
+- `Feature Files:` Define your test scenarios using Gherkin syntax in .feature files located in `src/test/resources/features`.
+- `Step Definitions:` Implement the steps defined in the feature files in classes located in `src/test/java/stepdefinitions`.
+- `Page Objects:` Create classes for each page of your application in `src/main/java/pages` following the Page Object Model.
+  
 ## Reporting
-
 They have not been implemented yet, but the structure was left in the Listeners class to implement the reports in the future.
 ## Contact
 
